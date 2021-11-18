@@ -13,7 +13,36 @@ ul {
 
 
 .cell-content {
-	width: 55px;
-	height: 55px;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+	width: 156px;
+	height: 156px;
 	background-color: violet;
+	padding: 6px;
+}
+.cell-content p {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.cell-content p.name {
+	margin-bottom: 24px;
+}
+
+.cell-content p.countdown-days span.countdown-hours {
+	font-size: 80%;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+.cell-content:hover p.countdown-days span.countdown-hours {
+	opacity: 1;
+}
+
+.countdown-days {
+
+}
+.countdown-hours {
+
 }

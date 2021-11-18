@@ -1,0 +1,25 @@
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+Date.prototype.getDate()
+Renvoie le jour du mois (entre 1 et 31) pour la date donnée, selon le temps local.
+
+Date.prototype.getDay()
+Renvoie le jour de la semaine (entre 0 et 6) pour la date donnée, selon le temps local.
+
+Date.prototype.getFullYear()
+Renvoie l'année (sans chiffre implicite, 1999 sera renvoyé et pas 99 par exemple) pour la date donnée, selon le temps local.
+
+Date.prototype.getHours()
+Renvoie l'heure (entre 0 et 23) pour la date donnée, selon le temps local.
+
+Date.prototype.getMilliseconds()
+Renvoie les millisecondes (entre 0 et 999) pour la date donnée, selon le temps local.
+
+Date.prototype.getMinutes()
+Renvoie les minutes (entre 0 et 59) pour la date donnée, selon le temps local.
+
+Date.prototype.getMonth()
+Renvoie le mois (entre 0 et 11) pour la date donnée, selon le temps local.
+
+Date.prototype.getSeconds()
+Renvoie les secondes (entre 0 et 59) pour la date donnée, selon le temps local.
