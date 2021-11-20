@@ -10,12 +10,34 @@
 <div id="pageContainer">
 	<div id="mainContainer">
 	</div>
+	<div id="newBottleModal">
+		<span id="closeNewBottleModal">X</span>
+		<div id="newBottleModalContent">
+			<div>
+				<label>Date achat :
+					<input id="dateValue" name="dateValue" type="date" />
+				</label><br /><br />
+				<label>name :
+					<input id="name" name="name" value="La Villageoise" placeholder="La Villageoise"/>
+				</label><br /><br />
+				<label>coords :
+					<input id="coords" name="coords" value="0_0" placeholder="<row>_<col>"/>
+				</label><br /><br />
+				<label>periodicityInDays :
+					<input id="periodicityInDays" name="periodicityInDays" value="2" placeholder="2"/>
+				</label><br /><br />
+				<button id="validateNewBottle" onclick="doAddBottle()">Créer bouteille</button>
+			</div>
+		</div>	
+	</div>	
 </div>
 
 
 <!-- jquery -->
 <script	src="js/utils/jquery.js"></script>
+
 <script	src="js/utils.js"></script>
+<script	src="js/fakeDatabase.js"></script>
 <script	src="js/main.js"></script>
 
 </body>
